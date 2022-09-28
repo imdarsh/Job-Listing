@@ -18,3 +18,5 @@ use App\Http\Controllers\ListingController;
 Route::get('/', [ListingController::class, 'index']);
 
 Route::get('/listings/{listing}', [ListingController::class, 'show']);
+
+// Route::get('/login',)
