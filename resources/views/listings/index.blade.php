@@ -2,6 +2,7 @@
 
 @section('content')
 @include('partials._hero')
+@include('partials._search')
 @unless(count($listings) === 0)
 <div class="m-8 grid grid-cols-2">
 @foreach($listings as $listing)
